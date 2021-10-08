@@ -1,0 +1,213 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 100px;
+    background-color: black;
+    border: aquamarine solid 4px;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header h1{
+    color: aquamarine;
+}
+
+.navbar li{
+    font-weight: lighter;
+    color: gold;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: gold;
+}
+
+.navbar .active{
+    font-weight: bolder;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(https://tecnoblog.net/wp-content/uploads/2020/06/the-last-of-us-part-2-1-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    margin-right: 250px;
+    width: 10%;
+    color: white;
+    font-size: 30px;
+}
+
+.message span{
+    font-weight: bolder;
+}
+
+.prop{
+    height: 450px;
+    background-color: #f7f7f7;
+}
+
+.prop .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prop .container h2{
+    color: rgb(59, 59, 179);
+    background-color: white;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.prop .container .mvv div img{
+    height: 100px;
+    width: 100px;
+}
+
+.prop .container .mvv{
+    margin-top: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.prop .container .mvv div{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.prop .container .mvv div h3{
+    color: rgb(59, 59, 179);
+    font-weight: bolder;
+    margin: 25px;
+}
+
+.footer{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    color: white;
+}
+
+
+.banner .login{
+    background-color: rgba(255, 255, 255, 0.482);
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.banner .login h2{
+    color: rgb(59, 59, 179);
+}
+
+.banner .login div span{
+    color: rgb(59, 59, 179);
+}
+
+.banner .login div{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .login div input{
+    border: 2px solid rgb(59, 59, 179);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.banner .login button{
+    background-color: rgb(59, 59, 179);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.footer2{
+    background-color: black;
+    height: 61px;
+}
+
+.banner .cadastro{
+    background-color: rgba(255, 255, 255, 0.482);
+    height: 450px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.banner .cadastro h2{
+    color: rgb(59, 59, 179);
+}
+
+.banner .cadastro div span{
+    color: rgb(59, 59, 179);
+}
+
+.banner .cadastro div{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .cadastro div input{
+    border: 2px solid rgb(59, 59, 179);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.banner .cadastro button{
+    background-color: rgb(59, 59, 179);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+}
